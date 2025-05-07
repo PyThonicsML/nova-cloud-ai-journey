@@ -1,0 +1,14 @@
+{
+    "BucketName": "nova-static-site",
+    "Region": "us-east-1",
+    "ACL": "public-read",
+    "WebsiteConfiguration": {
+      "IndexDocument": {
+        "Suffix": "index.html"
+      },
+      "ErrorDocument": {
+        "Key": "error.html"
+      }
+    }
+  }
+  
